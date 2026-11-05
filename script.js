@@ -33,7 +33,7 @@ const products = [
     category: "coffee",
     price: 120,
     description: "12-hour slow-steeped cold brew infused with fresh orange tonic and sparkling soda water for a crisp finish.",
-    image: "images/product-04.jpeg",
+    image: "images/product-04.jpg",
     fallback: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80"
   },
   {
@@ -42,7 +42,7 @@ const products = [
     category: "bakery",
     price: 85,
     description: "Flaky, multi-layered French butter croissant laminated by hand and baked fresh every morning at 7:00 AM.",
-    image: "images/product-05.jpeg",
+    image: "images/product-05.jpg",
     fallback: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
   },
   {
