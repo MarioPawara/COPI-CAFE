@@ -4,7 +4,7 @@ const products = [
     id: 1,
     title: "Iced Dirty Matcha",
     category: "specialty",
-    price: 125,
+    price: 80,
     description: "Ceremonial grade Uji matcha topped with a fresh double shot of Chiang Rai espresso and creamy oat milk.",
     image: "images/product-01.png",
     fallback: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80"
@@ -13,7 +13,7 @@ const products = [
     id: 2,
     title: "Chiang Rai Filter Coffee",
     category: "coffee",
-    price: 110,
+    price: 80,
     description: "Single-origin hand-brewed V60 filter coffee featuring delicate tasting notes of wild honey, citrus, and jasmine.",
     image: "images/product-02.jpg",
     fallback: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80"
@@ -22,7 +22,7 @@ const products = [
     id: 3,
     title: "Artisanal Avocado Toast",
     category: "bakery",
-    price: 165,
+    price: 100,
     description: "Toasted sourdough, fresh mashed avocado, organic poached egg, chili flakes, radish slices, and extra virgin olive oil.",
     image: "images/product-03.jpg",
     fallback: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=600&q=80"
@@ -31,16 +31,16 @@ const products = [
     id: 4,
     title: "Citrus Tonic Cold Brew",
     category: "coffee",
-    price: 120,
+    price: 60,
     description: "12-hour slow-steeped cold brew infused with fresh orange tonic and sparkling soda water for a crisp finish.",
-    image: "images/product-04.jpg",
+    image: "images/product-04.png",
     fallback: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 5,
     title: "Artisan Butter Croissant",
     category: "bakery",
-    price: 85,
+    price: 65,
     description: "Flaky, multi-layered French butter croissant laminated by hand and baked fresh every morning at 7:00 AM.",
     image: "images/product-05.jpg",
     fallback: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
@@ -49,7 +49,7 @@ const products = [
     id: 6,
     title: "Uji Matcha Cheesecake",
     category: "bakery",
-    price: 140,
+    price: 90,
     description: "Rich basque-style burnt cheesecake blended with authentic Japanese Uji matcha on a dark chocolate cookie base.",
     image: "images/product-06.jpg",
     fallback: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80"
