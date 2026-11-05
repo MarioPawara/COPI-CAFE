@@ -6,7 +6,7 @@ const products = [
     category: "specialty",
     price: 125,
     description: "Ceremonial grade Uji matcha topped with a fresh double shot of Chiang Rai espresso and creamy oat milk.",
-    image: "images/product-01.jpg",
+    image: "images/product-01.png",
     fallback: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80"
   },
   {
