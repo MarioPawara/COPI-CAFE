@@ -41,7 +41,7 @@ const products = [
     title: "Artisan Butter Croissant",
     category: "bakery",
     price: 85,
-    description: "Flaky, multi-layered French butter croissant laminated by hand and baked fresh every morning at 7:00 AM.",
+    description: "Flaky, multi-layered French butter croissant laminated by hand and baked fresh every morning.",
     image: "images/product-05.jpg",
     fallback: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
   },
