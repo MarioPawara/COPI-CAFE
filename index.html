@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CŌPI | Specialty Coffee & Modern Study Sanctuary</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header id="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#home" class="logo">CŌPI<span>.</span></a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sanctuary</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Book & Order</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="cart-btn" id="openCart" aria-label="Open Order Basket">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-count" id="cartCount">0</span>
+          </button>
+
+          <a href="#contact" class="btn-terracotta d-none-sm">
+            <span>Pre-Order</span>
+          </a>
+
+          <button class="mobile-toggle" id="menuToggle" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <span class="tag-badge">
+              <i class="fa-solid fa-graduation-cap"></i> Near University Gate
+            </span>
+            <h1>Fuel Your Focus at <em>CŌPI</em></h1>
+            <p class="hero-description">
+              Ethically sourced northern Thai roast coffee, ceremonial Uji matcha, and fresh artisanal sourdough pastries engineered for university scholars and creators.
+            </p>
+
+            <div class="hero-cta">
+              <a href="#menu" class="btn-terracotta">
+                Explore Menu <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a href="#contact" class="btn-outline">
+                Reserve Table
+              </a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat-item">
+                <h4>1Gbps</h4>
+                <p>Fiber Wi-Fi</p>
+              </div>
+              <div class="stat-item">
+                <h4>100%</h4>
+                <p>Ethical Sourcing</p>
+              </div>
+              <div class="stat-item">
+                <h4>07:00</h4>
+                <p>Early Doors</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <div class="hero-image-card">
+              <img src="images/hero-bg.jpg" alt="CŌPI modern coffee house interior aesthetic" onerror="this.src='https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80'">
+            </div>
+            <div class="hero-badge-float">
+              <i class="fa-solid fa-mug-hot"></i>
+              <div>
+                <h5>Study Friendly</h5>
+                <p>Quiet zones with individual outlets</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="about-grid">
+          
+          <div class="about-images">
+            <div class="about-img-box">
+              <img src="images/product-02.jpg" alt="Pour over filter coffee" onerror="this.src='https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80'">
+            </div>
+            <div class="about-img-box">
+              <img src="images/product-01.jpg" alt="Iced Dirty Matcha Latte" onerror="this.src='https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80'">
+            </div>
+          </div>
+
+          <div class="about-content">
+            <span class="tag-badge">Our Purpose</span>
+            <h2 class="section-title">Designed for Deep Work & Quiet Connections</h2>
+            <p style="color: var(--color-text-muted);">
+              CŌPI was founded on a simple realization: student minds need more than just caffeine—they need an environment built for focus. We combine high-grade northern Chiang Rai micro-lot beans with ergonomic study spaces and seamless digital tools.
+            </p>
+
+            <div class="feature-list">
+              <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-seedling"></i></div>
+                <div>
+                  <h4>Direct-Trade Micro-Lots</h4>
+                  <p>Beans sourced directly from shade-grown micro-farms in Chiang Rai, roasted weekly.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-wifi"></i></div>
+                <div>
+                  <h4>High-Speed Study Pods</h4>
+                  <p>Dedicated quiet zones equipped with ultra-fast Wi-Fi and universal desk outlets.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-bread-slice"></i></div>
+                <div>
+                  <h4>Daily Artisanal Bakery</h4>
+                  <p>Pastries laminated by hand and baked every morning at 7:00 AM sharp.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section-padding menu-section">
+      <div class="container">
+        <div class="text-center">
+          <span class="tag-badge">Curated Offerings</span>
+          <h2 class="section-title">Signature Menu</h2>
+          <p class="section-subtitle">Crafted with intentional ingredients for clean energy throughout your workday.</p>
+        </div>
+
+        <div class="menu-controls">
+          <div class="menu-tabs">
+            <button class="tab-btn active" data-category="all">All Items</button>
+            <button class="tab-btn" data-category="coffee">Coffee</button>
+            <button class="tab-btn" data-category="specialty">Specialty</button>
+            <button class="tab-btn" data-category="bakery">Bakery</button>
+          </div>
+
+          <div class="menu-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="menuSearch" placeholder="Search menu...">
+          </div>
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+          <!-- Rendered dynamically via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Pre-Order Section -->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="contact-grid">
+          
+          <div class="contact-info-panel">
+            <div>
+              <span class="tag-badge" style="background: rgba(255,255,255,0.1); color: var(--color-terracotta);">Visit & Contact</span>
+              <h3>Get in Touch</h3>
+              <p>Planning a group study session or need to place a bulk pre-order? We'd love to assist you.</p>
+
+              <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <h6>Location</h6>
+                  <p>124 University Avenue (East Gate), Campus District</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <h6>Opening Hours</h6>
+                  <p>Mon - Sun: 07:00 AM - 08:00 PM</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <h6>Email</h6>
+                  <p>hello@copicoffee.com</p>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 40px;">
+              <p style="font-size: 0.8rem; color: rgba(249, 246, 240, 0.4);">
+                &copy; 2026 CŌPI Coffee House. Academic Midterm Project.
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <h3 style="font-family: var(--font-heading); font-size: 2rem; color: var(--color-espresso); margin-bottom: 24px;">Reserve Space or Inquire</h3>
+            
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" class="form-control" placeholder="e.g. Alex Smith" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Student / Work Email</label>
+                  <input type="email" id="email" class="form-control" placeholder="alex@university.edu" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="subject">Request Type</label>
+                  <select id="subject" class="form-control" required>
+                    <option value="Space Reservation">Study Table Reservation</option>
+                    <option value="Pre-Order Request">Pre-Order Pick Up</option>
+                    <option value="Event Inquiry">Private Group Inquiry</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="date">Preferred Date</label>
+                  <input type="date" id="date" class="form-control" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message / Details</label>
+                <textarea id="message" rows="4" class="form-control" placeholder="Tell us how many guests or list custom dietary requirements..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-terracotta" style="width: 100%; justify-content: center;">
+                Submit Inquiry <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Slide-Out Order Basket (Cart) -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>Your Pre-Order</h3>
+      <button class="close-cart" id="closeCart"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="cart-items" id="cartItemsContainer">
+      <!-- Items dynamically populated -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <span id="cartSubtotal">฿0</span>
+      </div>
+      <button class="btn-terracotta" id="checkoutBtn" style="width: 100%; justify-content: center;">
+        Confirm Pre-Order
+      </button>
+    </div>
+  </aside>
+
+  <!-- Item Detail Modal -->
+  <div class="modal" id="itemModal">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose"><i class="fa-solid fa-xmark"></i></button>
+      <img id="modalImg" class="modal-img" src="" alt="Menu item preview">
+      <div class="modal-body">
+        <h3 id="modalTitle" class="modal-title"></h3>
+        <p id="modalPrice" class="modal-price"></p>
+        <p id="modalDesc" class="modal-desc"></p>
+        <button id="modalAddBtn" class="btn-terracotta" style="width: 100%; justify-content: center;">
+          Add to Pre-Order Basket
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toastNotification">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toastMessage">Item added to your basket</span>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <a href="#home" class="logo">CŌPI<span>.</span></a>
+          <p>Elevating daily student rituals with ethical specialty coffee and high-focus study environments.</p>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-btn" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sanctuary</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="#menu">Filter Coffee</a></li>
+            <li><a href="#menu">Matcha Craft</a></li>
+            <li><a href="#menu">Fresh Bakery</a></li>
+            <li><a href="#menu">Cold Brews</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Hours</h5>
+          <ul>
+            <li style="color: rgba(249, 246, 240, 0.6); font-size: 0.9rem;">Mon - Fri: 07:00 - 20:00</li>
+            <li style="color: rgba(249, 246, 240, 0.6); font-size: 0.9rem;">Sat - Sun: 08:00 - 18:00</li>
+            <li style="color: var(--color-terracotta); font-size: 0.85rem; margin-top: 10px;">
+              <i class="fa-solid fa-circle" style="font-size: 0.5rem; vertical-align: middle;"></i> Kitchen open daily
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 CŌPI Coffee House. All rights reserved.</p>
+        <p>Midterm Project — Technology for Business</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
