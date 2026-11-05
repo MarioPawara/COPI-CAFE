@@ -6,7 +6,7 @@ const products = [
     category: "specialty",
     price: 125,
     description: "Ceremonial grade Uji matcha topped with a fresh double shot of Chiang Rai espresso and creamy oat milk.",
-    image: "images/product-01.jpg",
+    image: "images/product-01.png",
     fallback: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80"
   },
   {
@@ -33,7 +33,7 @@ const products = [
     category: "coffee",
     price: 120,
     description: "12-hour slow-steeped cold brew infused with fresh orange tonic and sparkling soda water for a crisp finish.",
-    image: "images/product-04.jpg",
+    image: "images/product-04.png",
     fallback: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80"
   },
   {
