@@ -1148,3 +1148,60 @@ footer {
   .footer-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
 }
+/* Fix horizontal overflow & right side white strip */
+html, body {
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Ensure images don't overflow screen width */
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  /* Container header alignment */
+  header nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    width: 100%;
+  }
+
+  /* Make navigation ul drop down vertically */
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #ffffff; /* Match your background theme */
+    padding: 15px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  /* Expand link tap targets for mobile touch */
+  header nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 8px 0;
+  }
+
+  header nav ul li a {
+    display: block;
+    padding: 10px 0;
+    font-size: 1.1rem;
+  }
+}
